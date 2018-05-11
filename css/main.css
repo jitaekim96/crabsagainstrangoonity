@@ -1,0 +1,549 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, ol, ul {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #82806A;
+    text-decoration: none;
+}
+
+header ul {
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+header li {
+    display: inline;
+    margin: 16px 0px 0px 32px;
+    float: right;
+    font-weight: 400;
+}
+
+#nopadding {padding: 0px;}
+
+#textpadding {
+        padding: 6rem 2rem;
+}
+
+.center { 
+    position: relative;
+    top: 40%; 
+}
+
+a.cta {
+    font-weight: 500;
+    color: #748BFF !important;
+}
+
+nav a{
+    color: #ACA39A;
+        font-weight: 600;
+}
+
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav a em{
+    font-weight: 700;
+    color: #FFCB05;
+    font-style: normal;
+}
+nav a {
+    transition: 0.1s ease-in;
+}
+
+.container-fluid h1 {
+    color: rgba(255,203,5);
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 20px;
+        width: 90%;
+}    
+
+.container h1 {
+    color: #FFCB05;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+        width: 90%;
+}    
+
+.container-fluid h2 {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ACA39A;
+    width: 65%;
+}
+.container-fluid a {
+        transition: 0.1s ease-in;
+        font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+#landing .jumbotron{
+  position: relative;
+  z-index:-101;
+  height: 100vh;
+padding: 10rem 2rem;
+}
+
+
+
+.video-background {
+      position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: -100;
+        width:105%;
+}
+
+div {
+    display: block;
+}
+
+#tutorial {
+    height: 100%;
+    text-align: center;
+    background: black;
+}
+
+#tutorial h1{
+    text-align: left;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tutorial h2{
+    text-align: left;
+    width:60%; 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#landing {
+    z-index: -100;
+}
+
+#landing h1{
+     color: rgba(255,203,5);
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 6rem;
+    padding-left: 16px;
+}
+
+#landing h2{
+    color: #ACA39A;
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 6rem;
+    padding-left: 16px;
+}
+
+#what {
+	height: 100%;
+	background: #255498;
+}
+
+#contact {
+    height: 100%;
+    background: black;
+}
+
+#contact img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact a {
+    font-size: 20px;
+    color: #ACA39A;
+    font-weight: 600;
+}
+
+#contact a:hover {
+    font-size: 20px;
+    color: #FFCB05;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#contact .center {
+        top: 20%;
+}
+
+#contact h1 {
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact h2{
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#what #textpadding {
+        padding: 5rem 2rem;
+}
+
+#suggestpadding{
+    padding: 5rem 2rem;
+}
+
+.block {
+    width: 50%;
+    margin-right: 50px;
+}
+
+#process {
+    margin: 0 auto;
+    background: black;
+}
+
+/**#pdf {
+    position: relative;
+    left: 50%;
+    top: -40px;
+}
+**/
+
+
+.carousel {
+    position: absolute;
+}
+
+#suggest {
+	height: 100%;
+	background: #255498;
+    text-align: center;
+}
+
+	#suggest a.button {
+    position: relative;
+	}
+
+    #suggest h1{
+        width: 100%;
+    }
+
+	#suggest-form {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+	}
+
+	textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    color: #232323;
+    font-weight: bold;
+    background: #cecece;
+    border: 1px solid #cecece;
+    text-align: left;
+    outline: 0;
+    padding: 15px;
+    padding: 0.9375rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+    -webkit-appearance: none;
+	}
+
+	section#suggest form textarea {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 26px;
+    line-height: 1.625rem;
+	}
+
+	section#suggest form textarea {
+    text-align: left;
+    height: auto;
+    min-height: 112px;
+    min-height: 7rem;
+    margin-bottom: 50px;
+	}
+
+.block {
+	width: 50%;
+	margin-right: 50px;
+}
+
+
+a.button {
+    padding: 18px 40px 16px 40px;
+    border-radius: 1px;
+    color: #FFCB05;
+    text-decoration: none;
+    background-color: #255498; /* Green */
+    border: 3px solid #FFCB05; /* Green */
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: #255498;
+    background: #FFCB05;
+    text-decoration: none;
+}
+
+/** li {
+	display: inline;
+	float: left;
+    margin-right: 20px;
+}
+
+
+li:hover {
+    text-decoration: none;
+}
+	li.anchor {
+		margin: 0;	
+		float: left;
+		font-weight: 400;
+	}
+
+	a.cta {
+		font-weight: 500;
+		color: black !important;
+	}
+
+**/
+
+.wrapper {
+    width: 92%;
+    max-width: 1580px;
+    margin: 0 auto;
+}
+
+footer { 
+    border-top: 1px solid #E5E4EC;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 20px 0px 36px 0px;
+    background: white;
+}
+
+    footer ul {
+        list-style-type: none;
+        height: 0px;
+    }
+
+    footer ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    footer .ft-left {
+        float: left;
+    }
+
+    footer .ft-right {
+        float: right;
+    }
+footer a {
+    color: #ACA39A;
+}
+
+footer a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 510px){
+    
+    #landing .jumbotron {
+        background: black;
+        margin: 0px;
+        padding: 5rem 2rem;
+    }
+
+    .navbar {
+        background: black; 
+    }
+
+    #tutorial h1 {
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    #tutorial h2 {
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #landing h2 {
+        padding-left: 0px;
+    }
+
+    #tutorial .center {
+        position: relative;
+        top: 0%; 
+    }
+
+    footer ul {
+        list-style-type: none;
+            margin-bottom: 0rem;
+    }
+
+    li {
+        display: block;
+        text-align: left;
+        font-weight: 400;
+    }
+
+    li.anchor {
+        text-align: left;
+    }
+
+
+    header ul {
+        list-style-type: none;
+        padding-top: 30px;
+    }
+
+    header li {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: -20px 0px 30px 0px;
+        font-weight: 400;
+    }
+
+    #suggest-form {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    }
+
+    .carousel {
+    position: absolute;
+    width: 100%;
+}
+
+    #landing h1{
+     color: rgba(255,203,5);
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4rem;
+    padding-left: 0px;
+}
+
+    .container-fluid h1 {
+        color: rgba(255,203,5);
+        margin-top: 0px;
+        font-size: 48px;
+        font-weight: 600;
+            width: 90%;
+    }    
+
+#textpadding {
+    padding: 3rem 2rem;
+}
+#mobiletextpadding {padding: 3rem 2rem;}
+
+#tutorial h2 {
+    margin-bottom: 0px;
+}
+
+#contact h2 {
+    margin-bottom: 0px;
+}
+
+#contact h1 {
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    #contact h2 {
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.container h1 {
+        width: 100%;
+
+}    
+
+    .container-fluid h2 {
+            width: 100%;
+    }
+
+#landing h2{
+    color: rgba(255,255,255,.8);
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 4rem;
+    padding-left: 0px;
+}
+ 
+#landing .jumbotron{
+   background-color: black;
+   z-index: -100;
+   border-radius: 0px;  
+   height: 80vh;
+ }   
+
+.navbar{
+    background-color: black;
+ }
+
+.video-background {
+        width:0%;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+section#suggest form textarea {
+    font-size: 18px;
+    font-size: 0.9rem;
+    line-height: 26px;
+    line-height: 1.2rem;
+}
+
+
+}
+
+
