@@ -95,7 +95,7 @@
   <section id="tutorial">
     <div class="container-fluid">
       <div class="row">
-       <div class="col-lg-6" "col-xs-6" id="nopadding">
+       <div class="col-lg-6 col-lg-push-6" id="nopadding">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="20000">
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
@@ -117,7 +117,7 @@
        </div>
 
 
-        <div class="col-lg-6" "col-xs-6" id="mobiletextpadding">
+        <div class="col-lg-6 col-lg-pull-6" id="mobiletextpadding">
           <div class="center">
            <h1>How do you play this?</h1>
            <h2>Survive each round by arguing for your card. Your cards need to relate to all the black cards it touches. Lose all your cards to win.<b> Instructions are included in the free pdf.<a><b></h2>
@@ -126,7 +126,6 @@
 
       </div>
     </div>
-  </div>
  </section>
       <!-- <div id="features-video">
           <video width="700" loop autoplay controls muted>
@@ -141,18 +140,15 @@
 
     <section id="suggest">
       <div class="container" id="suggestpadding">
-          <h1>Suggest a card.</h1>
+          <h1>Suggest a card</h1>
         <div class="row">
             <div id="suggest-form">
-                <form class="ideas">
-                 Suggest: <textarea placeholder="Anonymously suggest a card, or a list of several cards separated by commas.(e.g. Pokemon go, Asian squat, Jian Yang, Foxconn suicide nets, Asian glow)"></textarea>
+
+                <form action="http://formspree.io/crabrangoonity@yahoo.com" method="post">
+                  <textarea type="text" name="name" placeholder="Anonymously suggest a card, or a list of several cards separated by commas.(e.g. Pokemon go, Asian squat, Jian Yang, Foxconn suicide nets, Asian glow)"></textarea>
+                  
+                  <input type="submit" value="Submit inferior idea">
                 </form>
-                <form action="send.php" method="POST">
-                  Name: <br><input type="text" name="name"><br>
-                  Request: <br><textarea name="request"></textarea>
-                  <input type="submit" name="submit" value="Send!">
-                </form>
-                <a class="button" href="index.html">Submit inferior idea</a>
             </div>
          </div>
     </div>
@@ -169,8 +165,8 @@
            </div>
         <div class="col-lg-6" id="nopadding">
           <div id="pdf" class="embed-responsive embed-responsive-16by9">
-            <object class="embed-responsive-item" data="process.pdf" type="application/pdf" internalinstanceid="13" title="Crabs Against Rangoonity Design Process"><p>Your browser isn't supporting embedded pdf files. You can download the file
             <a href="process.pdf">here</a>.</p>
+            <object class="embed-responsive-item" data="process.pdf" type="application/pdf" internalinstanceid="13" title="Crabs Against Rangoonity Design Process"><p>Your browser isn't supporting embedded pdf files. You can download the file
             </object>
           </div>
         </div>
