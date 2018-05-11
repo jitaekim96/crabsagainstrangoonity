@@ -1,19 +1,13 @@
-
-.col-lg-push-6 {
-left: 50%;
-}
- 
-.col-lg-pull-6 {
-right: 50%;
-}
-
-
 h1, h2, h3, h4, h5, h6, p, a, li, ol, ul {
     font-weight: normal;
     margin: 0;
     padding: 0;
     color: #82806A;
     text-decoration: none;
+}
+
+header .navbar {
+    padding: .5rem 2rem;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
@@ -61,7 +55,7 @@ header ul {
 
 header li {
     display: inline;
-    margin: 16px 0px 0px 32px;
+    margin: 16px 32px 0px 0px;
     float: right;
     font-weight: 400;
 }
@@ -89,7 +83,7 @@ nav a{
 
 
 nav a:hover {
-    color: white;
+    color: #FFCB05;
     text-decoration: none;
 }
 
@@ -186,7 +180,6 @@ div {
     font-size: 7rem;
     font-weight: 600;
     line-height: 6rem;
-    padding-left: 16px;
 }
 
 #landing h2{
@@ -194,7 +187,6 @@ div {
     font-size: 3.2rem;
     font-weight: 300;
     line-height: 6rem;
-    padding-left: 16px;
 }
 
 #what {
@@ -216,9 +208,10 @@ div {
     font-size: 20px;
     color: #ACA39A;
     font-weight: 600;
+    text-align: left;
 }
 
-#contact a:hover {
+#contact a.link:hover {
     font-size: 20px;
     color: #FFCB05;
     font-weight: 600;
@@ -242,6 +235,7 @@ div {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 #what #textpadding {
         padding: 5rem 2rem;
@@ -325,7 +319,7 @@ div {
     height: auto;
     min-height: 112px;
     min-height: 7rem;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 	}
 
 .block {
@@ -427,6 +421,7 @@ footer a:hover {
 
     .navbar {
         background: black; 
+        padding: 2rem 1rem;
     }
 
     #tutorial h1 {
@@ -493,6 +488,10 @@ footer a:hover {
     .carousel {
     position: absolute;
     width: 100%;
+}
+
+#tutorial .carousel {
+    width: 0%;
 }
 
     #landing h1{
@@ -562,10 +561,6 @@ footer a:hover {
    border-radius: 0px;  
    height: 80vh;
  }   
-
-.navbar{
-    background-color: black;
- }
 
 .video-background {
         width:0%;
