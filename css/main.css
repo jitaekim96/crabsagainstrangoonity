@@ -1,13 +1,56 @@
-*{
-    padding: 0;
-    margin: 0;
+
+.col-lg-push-6 {
+left: 50%;
 }
+ 
+.col-lg-pull-6 {
+right: 50%;
+}
+
 
 h1, h2, h3, h4, h5, h6, p, a, li, ol, ul {
     font-weight: normal;
     margin: 0;
     padding: 0;
     color: #82806A;
+    text-decoration: none;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #255498;
+    border: none;
+    color: #FFCB05;
+    padding: 18px 40px 16px 40px;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    border: 3px solid #FFCB05; 
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input [type=button], input[type=submit], input[type=reset] {
+    color: #255498;
+    background: #FFCB05;
+    text-decoration: none;
+}
+
+a.button {
+    padding: 18px 40px 16px 40px;
+    border-radius: 1px;
+    color: #FFCB05;
+    text-decoration: none;
+    background-color: #255498; /* Green */
+    border: 3px solid #FFCB05; /* Green */
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: #255498;
+    background: #FFCB05;
     text-decoration: none;
 }
 
@@ -60,7 +103,7 @@ nav a {
 }
 
 .container-fluid h1 {
-    color: rgba(255,203,5);
+    color: #FFCB05;
     font-size: 48px;
     font-weight: 600;
     margin-top: 20px;
@@ -137,12 +180,9 @@ div {
     margin-right: auto;  
 }
 
-#landing {
-    z-index: -100;
-}
 
 #landing h1{
-     color: rgba(255,203,5);
+    color: #FFCB05;
     font-size: 7rem;
     font-weight: 600;
     line-height: 6rem;
@@ -542,7 +582,6 @@ section#suggest form textarea {
     line-height: 26px;
     line-height: 1.2rem;
 }
-
 
 }
 
